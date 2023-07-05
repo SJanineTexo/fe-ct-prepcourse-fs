@@ -23,9 +23,9 @@ function nuevoUsuario(nombre, email, password) {
    // Retornar el objeto.
    // Tu código:
    var correo ={
-     nombre,
-     email,
-     password,
+     nombre: nombre,
+     email: email,
+     password: password,
    } 
    return correo
 }
